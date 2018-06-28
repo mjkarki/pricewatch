@@ -1,0 +1,4 @@
+'(("https://hinta.fi/1172973/apple-iphone-se"      249 "iPhone SE 32GB" )
+  ("https://hinta.fi/1172976/apple-iphone-se"      349 "iPhone SE 128GB")
+  ("https://hinta.fi/791832/bose-quietcomfort-25"  199 "Bose QC 25"     )
+  ("https://hinta.fi/1374689/samsung-860-evo-1-tb" 230 "Samsung 1TB SSD"))
