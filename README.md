@@ -7,7 +7,7 @@ SBCL (Common Lisp) practice project. Checks Hinta.fi for the lowest prices. Simp
 * *creating a standalone executable with a batch file (make.bat)* (this is the main point of this exercise)
 
 ## Usage
-Check the procutlist.txt file for some examples. The format of the file is actually rather simple. The file contains one two-dimensional Lisp-syntax list, where the inner elements have three space-separated items: 1) a URL to Hinta.fi product page (in Finnish), 2) price alarm limit and 3) a short product description for reporting purposes.
+Check the productlist.txt file for some examples. The format of the file is actually rather simple. The file contains one two-dimensional Lisp-syntax list, where the inner elements have three space-separated items: 1) a URL to Hinta.fi product page (the site is in Finnish, btw), 2) a price alarm limit and 3) a short product description for reporting purposes.
 
 ## License
 BSD 3-Clause License
