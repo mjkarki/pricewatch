@@ -33,8 +33,7 @@
   (ql:quickload :cl-ppcre :silent t)
   (ql:quickload :drakma :silent t))
 
-(with-open-file (s "productlist.txt")
-  (defparameter product-list (eval (read s))))
+(defparameter product-list '(()))
 
 (defparameter regexp "Halvin hinta ([0-9]+) ")
 
@@ -48,6 +47,8 @@
           (format t "!!!    ~a has reached the alarm limit    !!!~%" (caadr item))))))
 
 (defun main ()
+  (with-open-file (s "productlist.txt")
+    (defparameter product-list (eval (read s))))
   (dolist (item product-list)
     (check-price item))
   (format t "~%  Press ENTER to quit.~%")
