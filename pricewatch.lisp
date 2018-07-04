@@ -44,7 +44,7 @@
       (declare (ignore match))
       (if (< limit (parse-integer (aref price 0)))
           (format t "~16a has not reached the alarm limit (~ae). Price today is ~ae.~%" (caddr item) limit (aref price 0))
-          (format t "!!!    ~a has reached the alarm limit    !!!~%" (caadr item))))))
+          (format t "!!!    ~a has reached the alarm limit    !!!~%" (caddr item))))))
 
 (defun main ()
   (with-open-file (s "productlist.txt")
